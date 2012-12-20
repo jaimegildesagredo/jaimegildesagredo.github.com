@@ -33,6 +33,12 @@ a:hover {
   color: #83AA37;
 }
 
+article h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #83AA37;
+}
+
 .metadata {
   color: #555;
 }
@@ -112,12 +118,6 @@ a:hover {
 
 #post h1 a:hover {
   color: #58653E;
-}
-
-#post h2 {
-  margin-top: 25px;
-  margin-bottom: 5px;
-  color: #83AA37;
 }
 
 #post #disqus_thread {
