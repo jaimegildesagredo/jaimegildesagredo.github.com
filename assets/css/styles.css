@@ -1,0 +1,77 @@
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 19px;
+  color: #424242;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: bolder;
+  line-height: 52px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 13px;
+  line-height: 23px;
+}
+
+/* Main header */
+#main-header {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+#main-header h1 {
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+#main-header h1 a {
+  text-decoration: none;
+}
+
+#main-header nav {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+
+#main-header nav li {
+  display: inline;
+  margin-right: 7px;
+}
+
+/* Posts archive */
+
+#posts ul {
+  margin-top: 25px;
+}
+
+#posts li {
+  margin-bottom: 7px;
+}
+
+/* Post */
+#post header {
+  margin-bottom: 25px;
+}
+
+#post header time {
+  color: #333;
+}
+
+#post h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+#post #disqus_thread {
+  margin-top: 10px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
