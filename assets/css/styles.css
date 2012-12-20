@@ -86,12 +86,12 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Posts archive */
-#posts ul {
+/* Posts and talks archive */
+#talks ul, #posts ul {
   margin-top: 25px;
 }
 
-#posts li {
+#talks li, #posts li {
   margin-bottom: 7px;
 }
 
