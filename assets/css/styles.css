@@ -88,6 +88,7 @@ a:hover {
 
 /* Posts and talks archive */
 #talks ul, #posts ul {
+  list-style: none;
   margin-top: 25px;
 }
 
