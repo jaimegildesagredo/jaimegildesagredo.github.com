@@ -7,6 +7,9 @@ title: "Archive"
   <h1>Archive</h1>
 
   <ul>
+  {% if site.posts == empty %}
+    <p>There aren't posts yet :(</p>
+  {% else %}
     {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -17,5 +20,6 @@ title: "Archive"
       </span>
     </li>
     {% endfor %}
+  {% endif %}
   </ul>
 </section>
