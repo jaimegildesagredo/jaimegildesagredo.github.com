@@ -11,7 +11,7 @@ title: "Archive"
     <li>
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
-      <span>
+      <span class="metadata">
         on
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time>
       </span>

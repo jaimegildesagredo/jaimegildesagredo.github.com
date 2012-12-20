@@ -10,6 +10,10 @@ h1 {
   line-height: 52px;
 }
 
+h1 a {
+  text-decoration: none;
+}
+
 h2 {
   font-size: 32px;
   color: #333;
@@ -20,6 +24,30 @@ p {
   line-height: 23px;
 }
 
+a {
+  color: #6E873B;
+}
+
+a:hover {
+  color: #83AA37;
+}
+
+.metadata {
+  color: #555;
+}
+
+.metadata a, .metadata time {
+  font-style: italic;
+}
+
+.metadata time {
+  color: #424242;
+}
+
+.metadata a {
+  text-decoration: none;
+}
+
 /* Main header */
 #main-header {
   margin-top: 25px;
@@ -27,17 +55,18 @@ p {
 }
 
 #main-header h1 {
-  font-size: 64px;
   margin-bottom: 10px;
+  font-size: 64px;
 }
 
 #main-header h1 a {
-  text-decoration: none;
+  color: #424242;
 }
 
 #main-header nav {
   margin-top: 35px;
   margin-bottom: 10px;
+  text-align: right;
   font-size: 21px;
 }
 
@@ -46,7 +75,20 @@ p {
   margin-right: 7px;
 }
 
+#main-header nav a {
+  color: #424242;
+  text-decoration: none;
+}
+
+#main-header nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
 /* Posts archive */
+#posts h1 {
+  color: #6E873B;
+}
 
 #posts ul {
   margin-top: 25px;
@@ -65,9 +107,19 @@ p {
   color: #333;
 }
 
+#post h1 a {
+  color: #6E873B;
+  text-decoration: underline;
+}
+
+#post h1 a:hover {
+  color: #58653E;
+}
+
 #post h2 {
   margin-top: 25px;
   margin-bottom: 5px;
+  color: #83AA37;
 }
 
 #post #disqus_thread {

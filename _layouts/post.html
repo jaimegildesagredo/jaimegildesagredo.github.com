@@ -8,12 +8,12 @@ layout: base
       <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
     </h1>
 
-    <span>
+    <span class="metadata">
       by
       <a href="https://twitter.com/{{ page.author }}" title="{{ page.author }} on Twitter">{{ page.author }}</a>
     </span>
 
-    <span>
+    <span class="metadata">
       on
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time>
     </span>
