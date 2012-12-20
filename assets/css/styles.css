@@ -8,6 +8,7 @@ h1 {
   font-size: 46px;
   font-weight: bolder;
   line-height: 52px;
+  color: #6E873B;
 }
 
 h1 a {
@@ -86,10 +87,6 @@ a:hover {
 }
 
 /* Posts archive */
-#posts h1 {
-  color: #6E873B;
-}
-
 #posts ul {
   margin-top: 25px;
 }
