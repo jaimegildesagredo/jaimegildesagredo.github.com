@@ -62,12 +62,16 @@ article h2 {
 }
 
 #main-header h1 {
-  margin-bottom: 10px;
-  font-size: 64px;
+  margin-bottom: 15px;
+  font-size: 65px;
 }
 
 #main-header h1 a {
   color: #424242;
+}
+
+#main-header h4 {
+  margin-left: 5px;
 }
 
 #main-header nav {
