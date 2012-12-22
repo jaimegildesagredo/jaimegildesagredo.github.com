@@ -37,9 +37,7 @@ The idea is to develop a general purpose, [asynchronous][async_io] http API cons
 
 In general, a REST API client can be divided into two different parts: resources definition and http related stuff. This separation let us put http code in a high level abstraction and resources details in application metadata.
 
-> "Put Abstractions in Code, Details in Metadata"
->
-> [The Pragmatic Programmer][pragprog]
+> "Put Abstractions in Code, Details in Metadata" [The Pragmatic Programmer][pragprog]
 
 See the Finch code example below to understand what I'm talking about.
 
