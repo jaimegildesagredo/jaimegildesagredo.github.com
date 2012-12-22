@@ -48,6 +48,14 @@ Here, we have only described the `Repo` model and `Repos` collection. All of thi
 
 I think this is really interesting because you can dedicate exclusively to define the peculiarities of the API that you are going to consume and your business logic, and leave Finch to do all the repetitive work.
 
+## And do it asynchronously
+
+The last example shows you Finch working synchronously. That's fine when your application does not make an intensive use of API request, like in our example.
+
+But imagine you have to build a highly scalable service that combines several services behind an unique API. You should not have to wait for each response to perform the next request. Here is where asynchronous programming comes into play.
+
+To allow asynchronous requests, Finch will initially be built on top of the [Tornado][tornado] [asynchronous HTTP Client][async_httpclient]. This way you could do something like `repos.all(callback)`.
+
 [webapis]: http://en.wikipedia.org/wiki/Application_programming_interface#Web_APIs
 [restful]: http://en.wikipedia.org/wiki/Representational_state_transfer
 [http]: http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
@@ -56,3 +64,5 @@ I think this is really interesting because you can dedicate exclusively to defin
 [finch]: https://github.com/jaimegildesagredo/finch
 [async_io]: http://en.wikipedia.org/wiki/Asynchronous_I/O
 [pragprog]: http://pragprog.com/the-pragmatic-programmer/extracts/tips
+[tornado]: http://www.tornadoweb.org
+[async_httpclient]: http://www.tornadoweb.org/documentation/httpclient.html#tornado.httpclient.AsyncHTTPClient
