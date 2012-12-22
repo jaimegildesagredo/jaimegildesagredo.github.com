@@ -25,6 +25,19 @@ p {
   line-height: 23px;
 }
 
+blockquote {
+  margin: 30px 15px;
+}
+
+blockquote p {
+  font-size: 27px;
+  font-style: italic;
+}
+
+blockquote a {
+  font-size: 19px;
+}
+
 a {
   color: #6E873B;
 }
