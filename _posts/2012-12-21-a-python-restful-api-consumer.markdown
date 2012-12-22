@@ -2,7 +2,7 @@
 layout: post
 title: A python RESTful API consumer
 author: jaimegil
-tags: development, finch, python
+tags: development, finch, python, http, restful
 ---
 
 [Web APIs][webapis], and more particularly [RESTful][restful] APIs, have become very popular in the last few years by the hand of large sites like Fakebook, Twitter or Github, who give developers the opportunity to extend their services with a wide variety of applications and services.
@@ -27,8 +27,34 @@ These two previous examples shown very simple use cases, but serve to show the s
 
 But unfortunately, in the real world, client applications tend to become more and more complex and begins to be necessary to write some boilerplate code for stuff like prepare requests, validate data and parse responses.
 
+## Introducing Finch
+
+[Finch][finch] is an asynchronous RESTful API consumer I'm developing for Python.
+
+The idea is to develop a general purpose, [asynchronous][async_io] http API consumer, specially focused on remove all of this boilerplate code and provide a high level abstraction layer on top of any API.
+
+## Metadata driven clients
+
+In general, a REST API client can be divided into two different parts: resources definition and http related stuff. This separation let us put http code in a high level abstraction and resources details in application metadata.
+
+> "Put Abstractions in Code, Details in Metadata"
+>
+> [The Pragmatic Programmer][pragprog]
+
+See the Finch code example below to understand what I'm talking about.
+
+<script src="https://gist.github.com/4358924.js">
+</script>
+
+Here, we have only described the `Repo` model and `Repos` collection. All of this code is only metadata, declaratively defined using Python, that Finch will use to perform all the operations needed to get a list of repositories from Github.
+
+I think this is really interesting because you can dedicate exclusively to define the peculiarities of the API that you are going to consume and your business logic, and leave Finch to do all the repetitive work.
+
 [webapis]: http://en.wikipedia.org/wiki/Application_programming_interface#Web_APIs
 [restful]: http://en.wikipedia.org/wiki/Representational_state_transfer
 [http]: http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 [requests]: http://python-requests.org
 [github_api]: http://developer.github.com/v3/repos/
+[finch]: https://github.com/jaimegildesagredo/finch
+[async_io]: http://en.wikipedia.org/wiki/Asynchronous_I/O
+[pragprog]: http://pragprog.com/the-pragmatic-programmer/extracts/tips
