@@ -63,7 +63,7 @@ Let's see the example where we added a new Github repo, but now using Finch asyn
 
 ## Sounds good, I want to start using it!
 
-Sorry, not yet. Finch is still under active development. Although the examples shown here already work, there are some things I want to finish before release the first public version. For this first release I want to provide at least complete [CRUD][crud] support, resources definition and asynchronous requests. I think I can have this version for the beginning of 2013.
+Sorry, not yet. Finch is still under active development. Although the examples shown here already work, there are some things I want to finish before release the first public version. For this first release I want to provide at least complete [CRUD][crud] support, resources definition, authentication and asynchronous requests. I think I can have this version for the beginning of 2013.
 
 And finally, if you are interested in the project you can track progress on the [Github repo][finch], on [this blog][rss] or through my [Twitter account][jaimegil]. And of course, I would like to know your thoughts.
 
