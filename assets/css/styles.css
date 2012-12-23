@@ -1,6 +1,7 @@
 body {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 19px;
+  line-height: 27px;
   color: #424242;
 }
 
@@ -21,21 +22,21 @@ h2 {
 }
 
 p {
-  margin-bottom: 15px;
-  line-height: 23px;
+  margin-bottom: 21px;
 }
 
 blockquote {
-  margin: 30px 15px;
+  margin: 35px 20px;
 }
 
 blockquote p {
-  font-size: 27px;
+  font-size: 26px;
   font-style: italic;
 }
 
 blockquote a {
-  font-size: 19px;
+  margin-left: 10px;
+  font-size: 18px;
 }
 
 a {
