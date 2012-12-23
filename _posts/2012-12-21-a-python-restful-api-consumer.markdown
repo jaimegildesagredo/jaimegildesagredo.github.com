@@ -54,7 +54,12 @@ The last example shows you Finch working synchronously. That's fine when your ap
 
 But imagine you have to build a highly scalable service that combines several services behind an unique API. You should not have to wait for each response to perform the next request. Here is where asynchronous programming comes into play.
 
-To allow asynchronous requests, Finch will initially be built on top of the [Tornado][tornado] [asynchronous HTTP Client][async_httpclient]. This way you could do something like `repos.all(callback)`.
+To allow asynchronous requests, Finch will be initially built on top of the [Tornado][tornado] [asynchronous HTTP Client][async_httpclient]. This way you could do something like `repos.all(callback)`.
+
+Let's see the example where we added a new Github repo, but now using Finch asynchronously.
+
+<script src="https://gist.github.com/4363081.js">
+</script>
 
 [webapis]: http://en.wikipedia.org/wiki/Application_programming_interface#Web_APIs
 [restful]: http://en.wikipedia.org/wiki/Representational_state_transfer
