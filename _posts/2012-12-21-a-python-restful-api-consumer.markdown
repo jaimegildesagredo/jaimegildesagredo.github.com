@@ -61,6 +61,12 @@ Let's see the example where we added a new Github repo, but now using Finch asyn
 <script src="https://gist.github.com/4363081.js">
 </script>
 
+## Sounds good, I want to start using it!
+
+Sorry, not yet. Finch is still under active development. Although the examples shown here already work, there are some things I want to finish before release the first public version. For this first release I want to provide at least complete [CRUD][crud] support, resources definition and asynchronous requests. I think I can have this version for the beginning of 2013.
+
+And finally, if you are interested in the project you can track progress on the [Github repo][finch], on [this blog][rss] or through my [Twitter account][jaimegil]. And of course, I would like to know your thoughts.
+
 [webapis]: http://en.wikipedia.org/wiki/Application_programming_interface#Web_APIs
 [restful]: http://en.wikipedia.org/wiki/Representational_state_transfer
 [http]: http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
@@ -71,3 +77,6 @@ Let's see the example where we added a new Github repo, but now using Finch asyn
 [pragprog]: http://pragprog.com/the-pragmatic-programmer/extracts/tips
 [tornado]: http://www.tornadoweb.org
 [async_httpclient]: http://www.tornadoweb.org/documentation/httpclient.html#tornado.httpclient.AsyncHTTPClient
+[crud]: http://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+[rss]: http://feeds.feedburner.com/jaimegildesagredo
+[jaimegil]: https://twitter.com/jaimegil
