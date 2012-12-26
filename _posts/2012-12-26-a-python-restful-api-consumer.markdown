@@ -2,7 +2,7 @@
 layout: post
 title: A python RESTful API consumer
 author: jaimegil
-tags: development, finch, python, http, restful
+tags: [development, finch, python, http, restful]
 ---
 
 [Web APIs][webapis], and more particularly [RESTful][restful] APIs, have become very popular in the last few years by the hand of large sites like Fakebook, Twitter or Github, who give developers the opportunity to extend their services with a wide variety of applications and services.
