@@ -25,7 +25,7 @@ We also could add a new repository to the list making an authenticated POST requ
 
 These two previous examples shown very simple use cases, but serve to show the simplicity of consuming REST APIs.
 
-But unfortunately, in the real world, client applications tend to become more and more complex and begins to be necessary to write some boilerplate code for stuff like prepare requests, validate data and parse responses.
+But unfortunately, in the real world, client applications tend to become more and more complex and begins to be necessary to write some boilerplate code for stuff like *prepare requests*, *validate data* and *parse responses*.
 
 ## Introducing Finch
 
@@ -44,7 +44,7 @@ See the Finch code example below to understand what I'm talking about.
 <script src="https://gist.github.com/4358924.js">
 </script>
 
-Here, we have only described the `Repo` model and `Repos` collection. All of this code is only metadata, declaratively defined using Python, that Finch will use to perform all the operations needed to get a list of repositories from Github.
+Here, we have only described the `Repo` model and `Repos` collection. All of this code is only *metadata*, declaratively defined using Python, that Finch will use to perform all the operations needed to get a list of repositories from Github.
 
 I think this is really interesting because you can dedicate exclusively to define the peculiarities of the API that you are going to consume and your business logic, and leave Finch to do all the repetitive work.
 
@@ -65,7 +65,7 @@ Let's see the example where we added a new Github repo, but now using Finch asyn
 
 Sorry, not yet. Finch is still under active development. Although the examples shown here already work, there are some things I want to finish before release the first public version. For this first release I want to provide at least complete [CRUD][crud] support, resources definition, authentication and asynchronous requests. I think I can have this version for the beginning of 2013.
 
-And finally, if you are interested in the project you can track progress on the [Github repo][finch], on [this blog][rss] or through my [Twitter account][jaimegil]. And of course, I would like to know your thoughts.
+And finally, if you are interested in the project you can track progress on the [Github repo][finch], on [this blog][rss] or through my [Twitter account][jaimegil]. And of course, I would like to know your thoughts ;)
 
 [webapis]: http://en.wikipedia.org/wiki/Application_programming_interface#Web_APIs
 [restful]: http://en.wikipedia.org/wiki/Representational_state_transfer
