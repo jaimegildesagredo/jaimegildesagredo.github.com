@@ -56,4 +56,4 @@ And finally don't doubt to share your ideas here or [opening issues][booby_issue
 [booby_at_github]: https://github.com/jaimegildesagredo/booby
 [booby_issues]: https://github.com/jaimegildesagredo/booby/issues
 [booby_at_pypi]: https://pypi.python.org/pypi/booby
-[booby_docs]: https://booby.readthedocs.org/en/0.5.0
+[booby_docs]: https://booby.readthedocs.org/en/0.5.0/
