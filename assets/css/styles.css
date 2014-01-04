@@ -142,6 +142,11 @@ article h2 {
   color: #58653E;
 }
 
+#post ul {
+  padding-left: 40px;
+  margin-bottom: 21px;
+}
+
 #post #disqus_thread {
   margin-top: 10px;
   margin-left: 2.5px;
