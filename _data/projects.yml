@@ -1,6 +1,6 @@
 - name: Taskrd
   url: http://taskrd.com
-  summary: Taskrd is a bitbucket.org issues web dashboard
+  summary: Taskrd is a bitbucket.org issues web dashboard.
 
 - name: Expects
   url: https://github.com/jaimegildesagredo/expects
