@@ -1,25 +1,17 @@
 ---
 layout: base
-title: "Blog"
+title: About
 ---
 
-<section id="posts">
+<article id="about">
   <h1>{{ page.title }}</h1>
 
-  <ul>
-  {% if site.posts == empty %}
-    <p>There aren't posts yet :(</p>
-  {% else %}
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  <h2>Who am I</h2>
 
-      <span class="metadata">
-        on
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time>
-      </span>
-    </li>
-    {% endfor %}
-  {% endif %}
-  </ul>
-</section>
+  <p>Hi! My name is <em>Jaime Gil de Sagredo</em> and I'm from Madrid, Spain.</p>
+  <p>I'm a <em>software developer</em> interested in agile methodologies, tdd and bdd, open source, python, javascript, web and lots of other things.</p>
+
+  <h2>Contact</h2>
+
+  <p>If you would like to contact me you can do it through <a href="https://twitter.com/jaimegil" title="@jaimegil" target="_blank">Twitter</a>, <a href="http://github.com/jaimegildesagredo" title="github.com/jaimegildesagredo" target="_blank">Github</a>, <a href="http://www.linkedin.com/in/jaimegildesagredo" title="linkedin.com/jaimegildesagredo" target="_blank">LinkedIn</a> or sending me an <a href="mailto:jaimegildesagredo@gmail.com?subject=Hi" title="jaimegildesagredo at gmail dot com" target="_blank">email</a>.</p>
+</article>
