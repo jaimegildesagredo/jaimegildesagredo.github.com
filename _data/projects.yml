@@ -1,7 +1,19 @@
+- name: Expects
+  url: https://github.com/jaimegildesagredo/expects
+  summary: Expects is an expressive and extensible TDD/BDD assertion library for Python.
+
 - name: Taskrd
   url: http://taskrd.com
   summary: Taskrd is a bitbucket.org issues web dashboard.
 
-- name: Expects
-  url: https://github.com/jaimegildesagredo/expects
-  summary: Expects is an expressive and extensible TDD/BDD assertion library for Python.
+- name: Booby
+  url: https://github.com/jaimegildesagredo/booby
+  summary: Booby is a standalone data modeling and validation library written in Python.
+
+- name: Finch
+  url: https://github.com/jaimegildesagredo/finch
+  summary: Finch is an asynchronous RESTful API consumer for Python.
+
+- name: Expects-Requests
+  url: https://github.com/jaimegildesagredo/requests-expects
+  summary: Requests-expects is an Expects plugin for HTTP request and response assertions.
