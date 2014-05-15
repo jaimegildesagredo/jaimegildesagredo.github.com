@@ -1,0 +1,7 @@
+- name: Taskrd
+  url: http://taskrd.com
+  summary: Taskrd is a bitbucket.org issues web dashboard
+
+- name: Expects
+  url: https://github.com/jaimegildesagredo/expects
+  summary: Expects is an expressive and extensible TDD/BDD assertion library for Python.
