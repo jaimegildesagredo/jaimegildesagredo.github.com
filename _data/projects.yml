@@ -14,6 +14,10 @@
   url: https://github.com/jaimegildesagredo/finch
   summary: Finch is an asynchronous RESTful API consumer for Python.
   
+- name: Doublex-Expects
+  url: https://github.com/jaimegildesagredo/doublex-expects
+  summary: Doublex-expects is an Expects plugin for Doublex test doubles assertions.
+  
 - name: Requests-Expects
   url: https://github.com/jaimegildesagredo/requests-expects
   summary: Requests-expects is an Expects plugin for HTTP request and response assertions.
