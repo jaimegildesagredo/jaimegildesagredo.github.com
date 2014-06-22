@@ -13,7 +13,7 @@
 - name: Finch
   url: https://github.com/jaimegildesagredo/finch
   summary: Finch is an asynchronous RESTful API consumer for Python.
-
-- name: Expects-Requests
+  
+- name: Requests-Expects
   url: https://github.com/jaimegildesagredo/requests-expects
   summary: Requests-expects is an Expects plugin for HTTP request and response assertions.
