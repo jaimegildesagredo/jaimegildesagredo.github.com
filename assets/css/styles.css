@@ -115,13 +115,12 @@ article h2 {
   text-decoration: underline;
 }
 
-/* Posts and talks archive */
-#projects ul, #talks ul, #posts ul {
+#posts ul {
   list-style: none;
   margin-top: 25px;
 }
 
-#projects li, #talks li, #posts li {
+#posts li {
   margin-bottom: 7px;
 }
 

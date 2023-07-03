@@ -22,10 +22,10 @@ During development I tried to keep Booby very simple for easy integration with o
 
 By the time, although there is so much work to do, you are encouraged to [install][install] and [try it][docs], report issues and contribute your code through [Github][github_repo].
 
-[booby_02]: http://pypi.python.org/pypi/booby/0.2
-[apache2]: http://www.apache.org/licenses/LICENSE-2.0.html
-[finch]: http://jaimegildesagredo.github.com/2012/12/26/a-python-restful-api-consumer.html
-[data_modeling]: http://en.wikipedia.org/wiki/Data_modeling
+[booby_02]: https://pypi.python.org/pypi/booby/0.2
+[apache2]: https://www.apache.org/licenses/LICENSE-2.0.html
+[finch]: https://www.jaimegil.me/2012/12/26/a-python-restful-api-consumer.html
+[data_modeling]: https://en.wikipedia.org/wiki/Data_modeling
 [docs]: https://booby.readthedocs.org
 [fields]: https://booby.readthedocs.org/en/latest/fields.html
 [validators]: https://booby.readthedocs.org/en/latest/validators.html

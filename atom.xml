@@ -4,18 +4,18 @@ layout: nil
 
 <?xml version="1.0" encoding="utf-8" ?>
 
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
     <title>Jaime Gil de Sagredo</title>
-    <link href="http://jaimegildesagredo.github.com/atom.xml" rel="self" />
-    <id>jaimegildesagredo.github.com</id>
+    <link href="https://www.jaimegil.me/atom.xml" rel="self" />
+    <id>www.jaimegil.me</id>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
 
     {% for post in site.posts %}
     <entry>
         <title>{{ post.title }}</title>
-        <link href="http://jaimegildesagredo.github.com{{ post.url }}"/>
+        <link href="https://www.jaimegil.me{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://jaimegildesagredo.github.com{{ post.id }}</id>
+        <id>https://www.jaimegil.me{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
     {% endfor %}

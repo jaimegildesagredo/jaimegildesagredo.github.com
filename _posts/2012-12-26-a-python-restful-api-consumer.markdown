@@ -67,16 +67,16 @@ Sorry, not yet. Finch is still under active development. Although the examples s
 
 And finally, if you are interested in the project you can track progress on the [Github repo][finch], on [this blog][rss] or through my [Twitter account][jaimegil]. And of course, I would like to know your thoughts ;)
 
-[webapis]: http://en.wikipedia.org/wiki/Application_programming_interface#Web_APIs
-[restful]: http://en.wikipedia.org/wiki/Representational_state_transfer
-[http]: http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
-[requests]: http://python-requests.org
-[github_api]: http://developer.github.com/v3/repos/
+[webapis]: https://en.wikipedia.org/wiki/Application_programming_interface#Web_APIs
+[restful]: https://en.wikipedia.org/wiki/Representational_state_transfer
+[http]: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+[requests]: https://python-requests.org
+[github_api]: https://developer.github.com/v3/repos/
 [finch]: https://github.com/jaimegildesagredo/finch
-[async_io]: http://en.wikipedia.org/wiki/Asynchronous_I/O
-[pragprog]: http://pragprog.com/the-pragmatic-programmer/extracts/tips
-[tornado]: http://www.tornadoweb.org
-[async_httpclient]: http://www.tornadoweb.org/documentation/httpclient.html#tornado.httpclient.AsyncHTTPClient
-[crud]: http://en.wikipedia.org/wiki/Create,_read,_update_and_delete
-[rss]: http://feeds.feedburner.com/jaimegildesagredo
+[async_io]: https://en.wikipedia.org/wiki/Asynchronous_I/O
+[pragprog]: https://pragprog.com/the-pragmatic-programmer/extracts/tips
+[tornado]: https://www.tornadoweb.org
+[async_httpclient]: https://www.tornadoweb.org/documentation/httpclient.html#tornado.httpclient.AsyncHTTPClient
+[crud]: https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+[rss]: https://feeds.feedburner.com/jaimegildesagredo
 [jaimegil]: https://twitter.com/jaimegil

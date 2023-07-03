@@ -51,8 +51,8 @@ And finally don't doubt to share your ideas here or [opening issues][booby_issue
 [inspection_api_docs]: https://booby.readthedocs.org/en/0.5.0/inspection.html
 [data_driven_wikipedia]: https://en.wikipedia.org/wiki/Data-driven_programming
 [models_docs]: https://booby.readthedocs.org/en/0.5.0/models.html
-[python_inspect_docs]: http://docs.python.org/3.3/library/inspect.html
-[sqlalchemy_inspection_docs]: http://docs.sqlalchemy.org/en/rel_0_9/core/inspection.html
+[python_inspect_docs]: https://docs.python.org/3.3/library/inspect.html
+[sqlalchemy_inspection_docs]: https://docs.sqlalchemy.org/en/rel_0_9/core/inspection.html
 [booby_at_github]: https://github.com/jaimegildesagredo/booby
 [booby_issues]: https://github.com/jaimegildesagredo/booby/issues
 [booby_at_pypi]: https://pypi.python.org/pypi/booby
