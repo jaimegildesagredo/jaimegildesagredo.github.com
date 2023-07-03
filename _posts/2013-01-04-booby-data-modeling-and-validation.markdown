@@ -12,11 +12,11 @@ See the following example to get an idea of what Booby is intended to do.
 <script src="https://gist.github.com/4449143.js">
 </script>
 
-## Models should be data source independent
+### Models should be data source independent
 
 Although *resources definition* is one of the main Finch features, I've decided to release it as a separated project to keep these two parts as isolated as possible and that they can evolve independently. In the end, [data modeling][data_modeling] is a very important point in software design and development, and it should not be dependent of the data sources. Furthermore, the idea is that Finch will be completely independent of the resources definition layer sometime.
 
-## Using Booby
+### Using Booby
 
 During development I tried to keep Booby very simple for easy integration with other libraries and systems. Currently Booby is under active development and it is not a complete data modeling library yet, and [documentation][docs] isn't too complete, but I'm going to add new [field types][fields], [validators][validators] and serialization formats.
 

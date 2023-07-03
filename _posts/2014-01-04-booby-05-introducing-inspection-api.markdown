@@ -7,7 +7,7 @@ tags: [development, python, model, booby, inspect]
 
 Exactly a year ago the first Booby release [was announced][booby_announce]. Today with the release of the *0.5.0* version I'm very happy to say that Booby has continued to be developed keeping its *simplicity* and *isolation* from other libraries and providing a thin and robust *abstraction layer* for data modeling and usage.
 
-## The path taken
+### The path taken
 
 During the [past two versions][changes] I focused on fixing bugs and taking into account some use cases without adding so much features, and provide a *pythonic api* that would not interfere nor create undesirable side effects in the end-user application code.
 
@@ -15,7 +15,7 @@ The idea is to be as non-intrusive as possible and provide a *toolkit* to build 
 
 And the first step to achieve this comes with the most important feature of this version and that names this post: the **Inspection api**.
 
-## Implementing the Inspection api
+### Implementing the Inspection api
 
 With the desire of turning Booby into a toolkit for building [data-driven][data_driven_wikipedia] applications and libraries arises the need for access some internal data of Booby objects and classes, such as [model fields][models_docs].
 
@@ -32,7 +32,7 @@ All this has resulted in the `booby.inspection` module, that for now defines the
 
 Take a look to the [inspection module documentation][inspection_api_docs] for more information about how these functions work.
 
-## Future
+### Future
 
 The future of [Booby][booby_at_github] is linked with the goals exposed above: build a toolkit to model, validate, serialize and whatever you need to work with your application data, always trying to be the more pythonic and least intrusive as possible.
 

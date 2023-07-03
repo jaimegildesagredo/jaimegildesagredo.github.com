@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ page.title }} - Jaime Gil de Sagredo</title>
+    <title>{% if page.title != '' %}{{ page.title }} - {% endif %}Jaime Gil de Sagredo Luna</title>
 
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
     <meta name="author" content="Jaime Gil de Sagredo Luna" />
-    <meta name="description" content="Personal page about software development, DevOps, Python, JavaScript, BDD, ..." />
-    <meta name="keywords" content="software,development,python,javascript,bdd,tdd" />
+    <meta name="description" content="I am passionate about building high-quality software products that deliver value to users." />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -36,28 +35,16 @@
     <div class="container">
       <div class="row">
         <div class="ninecol">
-          <section id="main-header">
-            <header>
-              <h1>
-                <a href="/" title="Home">Jaime Gil de Sagredo</a>
-              </h1>
+          <header id="main-header">
+            <a href="/" title="Jaime Gil de Sagredo Luna's personal web page">
+              <img alt="Jaime Gil de Sagredo Luna profile's photo" src="https://avatars.githubusercontent.com/u/825580?v=4" width="260" height="260">
+              <h1>Jaime Gil de Sagredo Luna</h1>
+            </a>
+          </header>
+          <div class="row">
+            {{ content }}
+          </div>
 
-              <h4>Software development, DevOps, Python, JavaScript, BDD, ...</h4>
-            </header>
-
-            <nav>
-              <ul>
-                <li>
-                  <a href="/" title="Home">Home</a>
-                </li>
-                <li>
-                  <a href="/blog.html" title="My blog">Blog</a>
-                </li>
-              </ul>
-            </nav>
-          </section>
-
-          {{ content }}
         </div>
       </div>
     </div>

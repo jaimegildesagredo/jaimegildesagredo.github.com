@@ -9,7 +9,7 @@ tags: [development, finch, python, http, restful]
 
 This huge growth in the development and use of REST APIs has been mainly because of the ease of consuming data from different services to create applications, tools or whatever you imagine, such as another APIs! on nearly any device, operating system or programming language. And what has made this possible? The answer is the [HTTP protocol][http].
 
-## Consuming REST APIs
+### Consuming REST APIs
 
 Right, let me show you how easy is to start playing with, for example, the [Github API][github_api], using Python and the awesome [Requests][requests] http library.
 
@@ -27,13 +27,13 @@ These two previous examples shown very simple use cases, but serve to show the s
 
 But unfortunately, in the real world, client applications tend to become more and more complex and begins to be necessary to write some boilerplate code for stuff like *prepare requests*, *validate data* and *parse responses*.
 
-## Introducing Finch
+### Introducing Finch
 
 [Finch][finch] is an asynchronous RESTful API consumer I'm developing for Python.
 
 The idea is to develop a general purpose, [asynchronous][async_io] http API consumer, specially focused on remove all of this boilerplate code and provide a high level abstraction layer on top of any API.
 
-## Metadata driven clients
+### Metadata driven clients
 
 In general, a REST API client can be divided into two different parts: resources definition and http related stuff. This separation let us put http code in a high level abstraction and resources details in application metadata.
 
@@ -48,7 +48,7 @@ Here, we have only described the `Repo` model and `Repos` collection. All of thi
 
 I think this is really interesting because you can dedicate exclusively to define the peculiarities of the API that you are going to consume and your business logic, and leave Finch to do all the repetitive work.
 
-## And do it asynchronously
+### And do it asynchronously
 
 The last example shows you Finch working synchronously. That's fine when your application does not make an intensive use of API request, like in our example.
 
@@ -61,7 +61,7 @@ Let's see the example where we added a new Github repo, but now using Finch asyn
 <script src="https://gist.github.com/4363081.js">
 </script>
 
-## Sounds good, I want to start using it!
+### Sounds good, I want to start using it!
 
 Sorry, not yet. Finch is still under active development. Although the examples shown here already work, there are some things I want to finish before release the first public version. For this first release I want to provide at least complete [CRUD][crud] support, resources definition, authentication and asynchronous requests. I think I can have this version for the beginning of 2013.
 
